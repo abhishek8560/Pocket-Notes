@@ -1,0 +1,19 @@
+.sidebarContainer {
+  width: 20%;
+  height: 100%;
+}
+.sidebarContainer > h1 {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+}
+.folderNamesContainer{
+  height: 70%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  overflow: auto;
+}

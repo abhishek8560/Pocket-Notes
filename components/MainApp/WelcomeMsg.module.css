@@ -1,0 +1,40 @@
+.welcomePageContainer {
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: #dae5f5;
+  justify-content: center;
+}
+.welcomePageContainer > img{
+    width: 60%;
+    margin-bottom: 1%;
+}
+.welcomePageContainer > h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.welcomePageContainer > p{
+    font-size: 2rem;
+    margin: 0.1%;
+}
+.welcomePageContainer > .creditContainer{
+    margin-top: 5%;
+}
+.welcomePageContainer > .creditContainer > p{
+    font-size: 2rem;
+}
+.welcomePageContainer > .creditContainer > div{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.welcomePageContainer > .creditContainer > div >*{
+    font-size: 2rem;
+    margin: 0% 5%;
+    color: grey;
+}
+.welcomePageContainer > .creditContainer > div >*:hover{
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.noteStringInputContainer {
+  height: 25%;
+  background-color: #dae5f5;
+  padding: 1%;
+}
+.noteStringInputContainer > div {
+  display: flex;
+  padding: 1%;
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+.noteStringInputContainer > div > textarea {
+  font-size: 1.7rem;
+  height: 98%;
+  width: 98%;
+  background-color: white;
+  border: none;
+  resize: none;
+}
+.noteStringInputContainer > div > textarea:focus{
+    outline: none;
+}
+.noteStringInputContainer > div > button {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: end;
+  border: none;
+  background-color: white;
+}
+.noteStringInputContainer > div > button > * {
+    cursor: pointer;
+    color: rgb(27, 179, 179);
+}
+.noteStringInputContainer > div > button > *:hover {
+  color: blue;
+}

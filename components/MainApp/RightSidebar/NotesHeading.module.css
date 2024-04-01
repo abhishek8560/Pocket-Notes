@@ -1,0 +1,22 @@
+.notesHeading{
+    height: 10%;
+    background-color: rgb(93, 93, 243);
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+.notesHeading > *{
+    font-size: 2rem;
+}
+.notesHeading > span{
+    padding: 1%;
+    background-color: blue;
+    border-radius: 50%;
+    margin-right: 2%;
+    color: beige;
+}
+.notesHeading > p{
+    color: beige;
+    font-weight: 600;
+    letter-spacing: 2%;
+}
